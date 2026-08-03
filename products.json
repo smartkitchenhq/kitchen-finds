@@ -46,28 +46,28 @@
   },
   {
     "id": 6,
-    "name": "Avocado Slicer 3-in-1",
-    "price": "$11.99",
-    "url": "https://www.amazon.com/dp/example4",
-    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "name": "Silicone Stretch Lids 6-Pack",
+    "price": ".99",
+    "url": "https://www.amazon.com/dp/B0777SDS34/?tag=smartkitchenhq-20",
+    "image": "images/product_006.jpg",
     "badge": "",
     "category": "kitchen"
   },
   {
     "id": 7,
     "name": "Herb Scissors 5 Blade",
-    "price": "$15.99",
-    "url": "https://www.amazon.com/dp/example5",
-    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "price": ".99",
+    "url": "https://www.amazon.com/dp/B08D86XX84/?tag=smartkitchenhq-20",
+    "image": "images/product_007.jpg",
     "badge": "",
     "category": "kitchen"
   },
   {
     "id": 8,
     "name": "Citrus Lemon Squeezer",
-    "price": "$18.99",
-    "url": "https://www.amazon.com/dp/example6",
-    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "price": ".99",
+    "url": "https://www.amazon.com/dp/B08WHWY34Y/?tag=smartkitchenhq-20",
+    "image": "images/product_008.jpg",
     "badge": "",
     "category": "kitchen"
   }
