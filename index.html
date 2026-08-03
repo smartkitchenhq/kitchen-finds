@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Kitchen HQ | TikTok Kitchen Finds</title>
+    <meta name="description" content="Smart kitchen gadgets you didn't know you needed 💡 Shop our TikTok viral kitchen finds on Amazon.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Smart Kitchen HQ | TikTok Kitchen Finds">
+    <meta property="og:description" content="Smart kitchen gadgets you didn't know you needed 💡 Shop our TikTok viral kitchen finds on Amazon.">
+    <meta property="og:url" content="https://smartkitchenhq.github.io/kitchen-finds/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://placehold.co/1200x630/1a1a2e/f5f0e8?text=Smart+Kitchen+HQ">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍳</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="profile-header fade-in">
+            <div class="avatar-container">
+                <img src="https://placehold.co/400x400/1a1a2e/f5f0e8?text=SK" alt="@smartkitchenhq avatar" class="avatar">
+            </div>
+            <h1 class="profile-name">
+                @smartkitchenhq
+                <svg class="verified-badge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#6b8e4e">
+                    <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-2 15l-5-5 1.4-1.4 3.6 3.6 7.6-7.6L19 8l-9 9z"/>
+                </svg>
+            </h1>
+            <p class="profile-bio">Smart kitchen gadgets you didn't know you needed 💡</p>
+            <p class="profile-subtitle">Kitchen Finds | As seen on TikTok</p>
+        </header>
+
+        <!-- Search Bar -->
+        <div class="search-container fade-in">
+            <div class="search-wrapper">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" id="search-input" placeholder="Search item # (e.g. #001, #003) or name..." autocomplete="off">
+            </div>
+        </div>
+
+        <main id="products-container" class="products-grid">
+            <!-- Products will be injected here by JS -->
+        </main>
+
+        <footer class="footer fade-in">
+            <p>&copy; 2026 Smart Kitchen HQ</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const container = document.getElementById('products-container');
+            const searchInput = document.getElementById('search-input');
+            let allProducts = [];
+            
+            function renderProducts(productsToRender, query = '') {
+                container.innerHTML = '';
+                
+                if (productsToRender.length === 0) {
+                    container.innerHTML = `<p class="no-results-msg">No products found matching "<strong>${query}</strong>". Try searching for <code>#001</code>, <code>#002</code>...</p>`;
+                    return;
+                }
+                
+                productsToRender.forEach((product, index) => {
+                    const delay = index * 60; // Staggered animation
+                    const rawId = product.id || (index + 1);
+                    const formattedId = '#' + String(rawId).padStart(3, '0');
+                    
+                    const card = document.createElement('a');
+                    card.href = product.url;
+                    card.className = 'product-card';
+                    card.target = '_blank';
+                    card.rel = 'noopener noreferrer';
+                    card.style.animationDelay = `${delay}ms`;
+                    
+                    card.innerHTML = `
+                        <div class="product-image-container">
+                            <span class="product-id-badge">${formattedId}</span>
+                            <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-header-row">
+                                <h2 class="product-name">${product.name}</h2>
+                                <span class="product-id-tag">${formattedId}</span>
+                            </div>
+                            <p class="product-price">${product.price}</p>
+                            <button class="buy-button">Get it on Amazon &rarr;</button>
+                        </div>
+                    `;
+                    
+                    container.appendChild(card);
+                });
+            }
+
+            try {
+                const response = await fetch('products.json');
+                if (!response.ok) throw new Error('Network response was not ok');
+                allProducts = await response.json();
+                
+                renderProducts(allProducts);
+                
+                searchInput.addEventListener('input', (e) => {
+                    const query = e.target.value.trim().toLowerCase();
+                    if (!query) {
+                        renderProducts(allProducts);
+                        return;
+                    }
+                    
+                    const filtered = allProducts.filter(p => {
+                        const rawId = String(p.id || '');
+                        const formattedId = '#' + rawId.padStart(3, '0');
+                        const name = (p.name || '').toLowerCase();
+                        const cat = (p.category || '').toLowerCase();
+                        
+                        return (
+                            formattedId.toLowerCase().includes(query) ||
+                            rawId.includes(query) ||
+                            name.includes(query) ||
+                            cat.includes(query)
+                        );
+                    });
+                    
+                    renderProducts(filtered, e.target.value.trim());
+                });
+            } catch (error) {
+                console.error('Error loading products:', error);
+                container.innerHTML = '<p class="error-msg">Failed to load products. Please try again later.</p>';
+            }
+        });
+    </script>
+</body>
+</html>
