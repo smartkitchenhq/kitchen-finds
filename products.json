@@ -30,17 +30,17 @@
     "id": 4,
     "name": "Mini Garlic Press",
     "price": "$9.99",
-    "url": "https://www.amazon.com/dp/example2",
-    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "url": "https://www.amazon.com/dp/B00HEZ888K/?tag=smartkitchenhq-20",
+    "image": "images/product_004.jpg",
     "badge": "",
     "category": "kitchen"
   },
   {
     "id": 5,
-    "name": "Egg Separator Tool",
-    "price": "$7.99",
-    "url": "https://www.amazon.com/dp/example3",
-    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "name": "Avocado Slicer 3-in-1",
+    "price": ".99",
+    "url": "https://www.amazon.com/dp/B0DD3C3WLG/?tag=smartkitchenhq-20",
+    "image": "images/product_005.jpg",
     "badge": "",
     "category": "kitchen"
   },
