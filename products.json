@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Veggie Chopper Pro",
+    "price": "$24.99",
+    "url": "https://www.amazon.com/dp/B0BXDKYXMR?tag=smartkitchenhq-20",
+    "image": "images/product_001.jpg",
+    "badge": "",
+    "category": "kitchen"
+  },
+  {
+    "id": 2,
+    "name": "Meat Chopper Tool",
+    "price": "$14.99",
+    "url": "https://www.amazon.com/dp/B0BVZFB93G?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "",
+    "category": "kitchen"
+  },
+  {
+    "id": 3,
+    "name": "Silicone Ice Cube Tray",
+    "price": "$12.99",
+    "url": "https://www.amazon.com/dp/example1",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "",
+    "category": "kitchen"
+  },
+  {
+    "id": 4,
+    "name": "Mini Garlic Press",
+    "price": "$9.99",
+    "url": "https://www.amazon.com/dp/example2",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "",
+    "category": "kitchen"
+  },
+  {
+    "id": 5,
+    "name": "Egg Separator Tool",
+    "price": "$7.99",
+    "url": "https://www.amazon.com/dp/example3",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "",
+    "category": "kitchen"
+  },
+  {
+    "id": 6,
+    "name": "Avocado Slicer 3-in-1",
+    "price": "$11.99",
+    "url": "https://www.amazon.com/dp/example4",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "",
+    "category": "kitchen"
+  },
+  {
+    "id": 7,
+    "name": "Herb Scissors 5 Blade",
+    "price": "$15.99",
+    "url": "https://www.amazon.com/dp/example5",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "",
+    "category": "kitchen"
+  },
+  {
+    "id": 8,
+    "name": "Citrus Lemon Squeezer",
+    "price": "$18.99",
+    "url": "https://www.amazon.com/dp/example6",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "",
+    "category": "kitchen"
+  }
+]
