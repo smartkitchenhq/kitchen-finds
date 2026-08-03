@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Veggie Chopper Pro",
     "price": "$24.99",
-    "url": "https://www.amazon.com/dp/B0836H4G8Q/?tag=smartkitchenhq-20",
+    "url": "https://www.amazon.com/Vegetable-Chopper-Slicer-Dicer-Cutter/dp/B08BTYLCWC/?tag=smartkitchenhq-20",
     "image": "images/product_001.jpg",
     "badge": "",
     "category": "kitchen"
@@ -21,8 +21,8 @@
     "id": 3,
     "name": "Silicone Ice Cube Tray",
     "price": "$12.99",
-    "url": "https://www.amazon.com/dp/example1",
-    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "url": "https://www.amazon.com/Silicone-Ice-Cube-Tray-Lid/dp/B08BTYLCWC/?tag=smartkitchenhq-20",
+    "image": "images/product_003.jpg",
     "badge": "",
     "category": "kitchen"
   },
