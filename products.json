@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Veggie Chopper Pro",
-    "price": ".99",
+    "price": "$24.99",
     "url": "https://www.amazon.com/dp/B08N9Q24M9/?tag=smartkitchenhq-20",
     "image": "images/product_001.jpg",
     "badge": "",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Meat Chopper Tool",
-    "price": ".99",
+    "price": "$14.99",
     "url": "https://www.amazon.com/dp/B0BVZFB93G/?tag=smartkitchenhq-20",
     "image": "images/product_002.jpg",
     "badge": "",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Silicone Ice Cube Tray",
-    "price": ".99",
+    "price": "$12.99",
     "url": "https://www.amazon.com/dp/B08BTYLCWC/?tag=smartkitchenhq-20",
     "image": "images/product_003.jpg",
     "badge": "",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Mini Garlic Press",
-    "price": ".99",
+    "price": "$9.99",
     "url": "https://www.amazon.com/dp/B00HEZ888K/?tag=smartkitchenhq-20",
     "image": "images/product_004.jpg",
     "badge": "",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Avocado Slicer 3-in-1",
-    "price": ".99",
+    "price": "$8.99",
     "url": "https://www.amazon.com/dp/B0DD3C3WLG/?tag=smartkitchenhq-20",
     "image": "images/product_005.jpg",
     "badge": "",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "Silicone Stretch Lids 6-Pack",
-    "price": ".99",
+    "price": "$11.99",
     "url": "https://www.amazon.com/dp/B0777SDS34/?tag=smartkitchenhq-20",
     "image": "images/product_006.jpg",
     "badge": "",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "name": "Herb Scissors 5 Blade",
-    "price": ".99",
+    "price": "$13.99",
     "url": "https://www.amazon.com/dp/B08D86XX84/?tag=smartkitchenhq-20",
     "image": "images/product_007.jpg",
     "badge": "",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "name": "Citrus Lemon Squeezer",
-    "price": ".99",
+    "price": "$14.99",
     "url": "https://www.amazon.com/dp/B08WHWY34Y/?tag=smartkitchenhq-20",
     "image": "images/product_008.jpg",
     "badge": "",
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "name": "Red Crab Utensil Rest",
-    "price": ".99",
+    "price": "$15.99",
     "url": "https://www.amazon.com/dp/B08D86XX84/?tag=smartkitchenhq-20",
     "image": "images/product_009.jpg",
     "badge": "",
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "name": "Magic Mushroom Funnel",
-    "price": ".99",
+    "price": "$9.99",
     "url": "https://www.amazon.com/dp/B08BTYLCWC/?tag=smartkitchenhq-20",
     "image": "images/product_010.jpg",
     "badge": "",
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "name": "Vampire Garlic Twister",
-    "price": ".99",
+    "price": "$12.99",
     "url": "https://www.amazon.com/dp/B00HEZ888K/?tag=smartkitchenhq-20",
     "image": "images/product_011.jpg",
     "badge": "",
@@ -101,7 +101,7 @@
   {
     "id": 12,
     "name": "Fish Pasta Tester & Measurer",
-    "price": ".99",
+    "price": "$8.99",
     "url": "https://www.amazon.com/dp/B0DD3C3WLG/?tag=smartkitchenhq-20",
     "image": "images/product_012.jpg",
     "badge": "",
@@ -110,7 +110,7 @@
   {
     "id": 13,
     "name": "Leaf Drain Jungle Spoon",
-    "price": ".99",
+    "price": "$10.99",
     "url": "https://www.amazon.com/dp/B0777SDS34/?tag=smartkitchenhq-20",
     "image": "images/product_013.jpg",
     "badge": "",
@@ -119,7 +119,7 @@
   {
     "id": 14,
     "name": "Cool Mama Fridge Deodorizer",
-    "price": ".99",
+    "price": "$11.99",
     "url": "https://www.amazon.com/dp/B08WHWY34Y/?tag=smartkitchenhq-20",
     "image": "images/product_014.jpg",
     "badge": "",
@@ -128,7 +128,7 @@
   {
     "id": 15,
     "name": "Nessie Family 3-Pack Ladle",
-    "price": ".99",
+    "price": "$19.99",
     "url": "https://www.amazon.com/dp/B08N9Q24M9/?tag=smartkitchenhq-20",
     "image": "images/product_015.jpg",
     "badge": "",
@@ -137,7 +137,7 @@
   {
     "id": 16,
     "name": "Bat Wine Opener & Corkscrew",
-    "price": ".99",
+    "price": "$16.99",
     "url": "https://www.amazon.com/dp/B0BVZFB93G/?tag=smartkitchenhq-20",
     "image": "images/product_016.jpg",
     "badge": "",
@@ -146,7 +146,7 @@
   {
     "id": 17,
     "name": "Monster Tea Strainer Infuser",
-    "price": ".99",
+    "price": "$9.99",
     "url": "https://www.amazon.com/dp/B08D86XX84/?tag=smartkitchenhq-20",
     "image": "images/product_017.jpg",
     "badge": "",
@@ -155,7 +155,7 @@
   {
     "id": 18,
     "name": "Ninja Cutting Board with Knife",
-    "price": ".99",
+    "price": "$22.99",
     "url": "https://www.amazon.com/dp/B08BTYLCWC/?tag=smartkitchenhq-20",
     "image": "images/product_018.jpg",
     "badge": "",
