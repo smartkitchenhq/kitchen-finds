@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Veggie Chopper Pro",
-    "price": "$24.99",
+    "price": ".99",
     "url": "https://www.amazon.com/dp/B08N9Q24M9/?tag=smartkitchenhq-20",
     "image": "images/product_001.jpg",
     "badge": "",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Meat Chopper Tool",
-    "price": "$14.99",
+    "price": ".99",
     "url": "https://www.amazon.com/dp/B0BVZFB93G/?tag=smartkitchenhq-20",
     "image": "images/product_002.jpg",
     "badge": "",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Silicone Ice Cube Tray",
-    "price": "$12.99",
+    "price": ".99",
     "url": "https://www.amazon.com/dp/B08BTYLCWC/?tag=smartkitchenhq-20",
     "image": "images/product_003.jpg",
     "badge": "",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Mini Garlic Press",
-    "price": "$9.99",
+    "price": ".99",
     "url": "https://www.amazon.com/dp/B00HEZ888K/?tag=smartkitchenhq-20",
     "image": "images/product_004.jpg",
     "badge": "",
@@ -146,7 +146,7 @@
   {
     "id": 17,
     "name": "Monster Tea Strainer Infuser",
-    "price": ".49",
+    "price": ".99",
     "url": "https://www.amazon.com/dp/B08D86XX84/?tag=smartkitchenhq-20",
     "image": "images/product_017.jpg",
     "badge": "",
