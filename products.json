@@ -160,5 +160,95 @@
     "image": "images/product_018.jpg",
     "badge": "",
     "category": "kitchen"
+  },
+  {
+    "id": 19,
+    "name": "Electric Mini Garlic & Herb Chopper USB",
+    "price": "$14.99",
+    "url": "https://www.amazon.com/dp/B08P4QSJZP/?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "NEW",
+    "category": "kitchen"
+  },
+  {
+    "id": 20,
+    "name": "Automatic Pan Stirrer with Timer",
+    "price": "$29.99",
+    "url": "https://www.amazon.com/dp/B075RBV56M/?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "NEW",
+    "category": "kitchen"
+  },
+  {
+    "id": 21,
+    "name": "Glass Oil Sprayer & Pourer 2-in-1",
+    "price": "$12.99",
+    "url": "https://www.amazon.com/dp/B0C6QRVJ7X/?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "NEW",
+    "category": "kitchen"
+  },
+  {
+    "id": 22,
+    "name": "Countertop Mini Trash Can with Lid",
+    "price": "$11.99",
+    "url": "https://www.amazon.com/dp/B08C5D8V5J/?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "NEW",
+    "category": "kitchen"
+  },
+  {
+    "id": 23,
+    "name": "Magnetic Spice Jars Stainless Steel Set",
+    "price": "$19.99",
+    "url": "https://www.amazon.com/dp/B07JGWQ8Q8/?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "NEW",
+    "category": "kitchen"
+  },
+  {
+    "id": 24,
+    "name": "Silicone Egg Poaching Cups 4-Pack",
+    "price": "$9.99",
+    "url": "https://www.amazon.com/dp/B073R5K3C8/?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "NEW",
+    "category": "kitchen"
+  },
+  {
+    "id": 25,
+    "name": "Mini Bag Sealer & Cutter 2-in-1",
+    "price": "$10.99",
+    "url": "https://www.amazon.com/dp/B083Z93X1M/?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "NEW",
+    "category": "kitchen"
+  },
+  {
+    "id": 26,
+    "name": "Expandable Over the Sink Colander Basket",
+    "price": "$13.99",
+    "url": "https://www.amazon.com/dp/B08688CY5R/?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "NEW",
+    "category": "kitchen"
+  },
+  {
+    "id": 27,
+    "name": "Butter Mill Dispenser & Spreader",
+    "price": "$16.99",
+    "url": "https://www.amazon.com/dp/B00004SZ78/?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "NEW",
+    "category": "kitchen"
+  },
+  {
+    "id": 28,
+    "name": "Touchless Automatic Dish Soap Dispenser",
+    "price": "$21.99",
+    "url": "https://www.amazon.com/dp/B08CYBYRVT/?tag=smartkitchenhq-20",
+    "image": "https://placehold.co/400x400/1a1a2e/f5f0e8?text=Product",
+    "badge": "NEW",
+    "category": "kitchen"
   }
 ]
